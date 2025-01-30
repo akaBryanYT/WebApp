@@ -30,7 +30,7 @@ def files():
     files_list = sorted([fl.split("/")[-1] for fl in glob.glob("./Data/volume/*.dcm")])
     return json.dumps(files_list)
 
-@app.route("/")
+@app.route("/about")
 def main():
     return render_template("about.html")
 
