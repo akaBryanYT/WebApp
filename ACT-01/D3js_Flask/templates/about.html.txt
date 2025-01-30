@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Our Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1, h2 {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>About Our Project</h1>
+        <p>Welcome to our project for Software Testing and Automation! Our team is focused on developing robust testing strategies to ensure software reliability and efficiency.</p>
+        
+        <h2>Team Members</h2>
+        <ul>
+            <li><strong>Your Name</strong> - Project Lead</li>
+            <li><strong>Bryan Chavez</strong> - Test Case Developer</li>
+            <li><strong>Nicolas Desprez</strong> - Automation Engineer</li>
+            <li><strong>Ryan Callaghan</strong> - Documentation Specialist</li>
+        </ul>
+        
+        <h2>Project Overview</h2>
+        <p>Our project involves creating automated test cases for a sample web application, utilizing tools such as Selenium, JUnit, and CI/CD pipelines to streamline the testing process.</p>
+        
+        <h2>Goals</h2>
+        <ul>
+            <li>Develop comprehensive test plans for various functionalities.</li>
+            <li>Automate regression testing to improve efficiency.</li>
+            <li>Integrate testing into a continuous delivery pipeline.</li>
+            <li>Ensure software meets high-quality standards before release.</li>
+        </ul>
+        
+        <h2>Technologies Used</h2>
+        <ul>
+            <li>Selenium WebDriver</li>
+            <li>JUnit / TestNG</li>
+            <li>Jenkins / GitHub Actions</li>
+            <li>Python / Java for scripting</li>
+        </ul>
+    </div>
+</body>
+</html>
